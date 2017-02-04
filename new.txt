@@ -1,0 +1,3 @@
+drop table new
+alter table new add this heeyah
+alter table new drop column hello
