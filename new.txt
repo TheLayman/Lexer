@@ -1,3 +1,22 @@
 SELECT BOOBS FROM WOMEN WHERE VIRGINTY = 'LOST' AND SIZE = 'HUUUGE' ;
 
 SELECT sid FROM students WHERE cpi > (SELECT cpi FROM cpi_table WHERE sname = 'Yashwant betha bro');
+
+create table abc_def (
+	id int primary key ,
+	abn_fsf float UNIQUE
+) ;
+
+select * from abn_dasd where abc = 323
+
+select * from abn_dasd where abc - 323 = 324.54
+
+select * from (select abc_def from pdf_jss) P where P.sid = .4356
+
+insert into abc_deff (a , b , c) values (def , grf , potus) ;
+
+update abcdef_fasd set abc = .25 , dasd = 34 , def = fsd45 where cvf = '234' ;
+
+delete from abc_def where abc <= 23
+
+alter table abc_def drop column dasd_das
