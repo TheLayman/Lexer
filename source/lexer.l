@@ -50,7 +50,7 @@ IN          printf("keyword IN\n");
 
 [a-zA-Z][_a-zA-Z0-9]*    printf("IDENTFIER %s\n",yytext);
                              
-[0-9][0-9]*	printf("NUMBER %s\n",yytext);
+[0-9][0-9]*[\.][0-9]*	printf("NUMBER %s\n",yytext);
 [ \t\n]					;
 [^ \t\n()<>=,\*;\'\+\-\/]*		printf("unexpected character: %s\n", yytext);
 
