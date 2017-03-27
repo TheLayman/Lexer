@@ -1,4 +1,3 @@
-SELECT BOOBS FROM WOMEN WHERE VIRGINTY = 'LOST' AND SIZE = 'HUUUGE' ;
 
 SELECT sid FROM students WHERE cpi > (SELECT cpi FROM cpi_table WHERE sname = 'Yashwant betha bro');
 
