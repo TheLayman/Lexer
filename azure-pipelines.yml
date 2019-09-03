@@ -1,0 +1,23 @@
+# resources:
+#   repositories:
+#   - repository: tadaRepo
+#     type: git
+#     name: test
+  # pipelines:
+  #  - pipeline: P1
+  #    source: test
+  #    project: test
+stages:
+- stage: Test
+  jobs:
+  - job: Test
+    pool: Default
+    steps:
+        - script: echo Hello world
+        # - download: P1
+        #   artifact: MyBuildOutputs
+        # - checkout: self
+        # - task: PublishBuildArtifacts@1
+        #   inputs:
+        #     PathtoPublish: '$(Agent.BuildDirectory)'
+        #     artifactName: newA
