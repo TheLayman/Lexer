@@ -13,7 +13,7 @@ stages:
   - job: Test
     pool: Default
     steps:
-        - script: echo Hello worlddd
+        - script: echo bumchik
         # - download: P1
         #   artifact: MyBuildOutputs
         # - checkout: self
